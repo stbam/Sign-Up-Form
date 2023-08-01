@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'myfirstfont' ;
+    src: url('/Users/stanislav/webdev/Intermediate_HTML_CSS/Sign-Up-Form/Norse-Bold.otf');
+}
+.img{ 
+    width: 50%;
+    max-height: 100vh;
+    padding: 0;
+   content: url('halie-west-25xggax4bSA-unsplash.jpg');
+    top: 0;
+    left: 0;
+}
+body{
+    display: flex;
+    margin: 0;
+    display: flex;
+}
+.odin_logo{
+    /*content: url('odin-lined.png');*/
+    font-family: 'myfirstfont';
+    color: white;
+   /*
+ top: 25vh;
+    left: 5vh;
+   */
+    position: absolute;
+    max-height: 15vh;
+    width: 15vh;
+}
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.words{
+    color: white;
+    font-family: 'myfirstfont';
+}
+.background{    
+    background-color: rgba(0, 0, 0, 0.5);  
+    width: 50%;
+    position: absolute;
+   /* top: 25vh;
+    left: 5vh;*/
+    top: 20vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    
+}
+.ss{
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+
+}
