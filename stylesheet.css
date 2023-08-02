@@ -69,8 +69,16 @@ html{
 input{
     display: block;
      width: 220px;
+     border-color: #E5E7EB;
    
 }
+input:focus{
+    
+}
+
+
+
+
 .Title{
     margin-top: auto;
     margin-bottom: 20px;
@@ -83,6 +91,7 @@ input{
 }
 .login{
     margin-bottom: auto;
+    text-decoration:none
     
 }
 .extra{
@@ -110,6 +119,11 @@ h3{
     border-radius: 4px;
     width: 150px;
     margin-left: 40px;
+
+}
+.signup:hover{
+    background-color: #86a56c;
+
 }
 .login{
     
