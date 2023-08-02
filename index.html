@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    
     <title>Document</title>
+
 </head>
 <body>
     
@@ -29,47 +32,60 @@
 
            <p>You know you want to.</p>
         </div>
+        
 
 
         <form class="test">
-            <h3>Lets Do this! </h3>
-            <div class="extra"> 
-        <div class="input">
+                <h3>Lets Do this! </h3>
 
-            <label for="Firstname">First Name:</label>
-            <input id="Firstname" type="text" name="Firstname">
-        </div>
-        <div class="input">       
-           <label for="Secondname"> Last Name: </label>
-            <input type="text" name="Secondname">
-        </div>
-</div>
-<div class="extra"> 
+        <div class="extra"> 
             <div class="input">
-            <label for="Email">Email:</label>
-            <input type="email" name="Email" id="Email">
+
+                <label for="Firstname">First Name:</label>
+                <input id="Firstname" required type="text" name="Firstname">
+            </div>
+
+            <div class="input">       
+            <label for="Secondname"> Last Name: </label>
+                <input required type="text" name="Secondname">
+            </div>
         </div>
-        <div class="input">
-            <label for="PhoneNumber">Phone Number</label>
-            <input type="tel" id="PhoneNumber" name="PhoneNumber">
+       
+        <div class="extra"> 
+            <div class="input">
+                <label for="Email">Email:</label>
+                <input required type="email" name="Email" id="Email">
+            </div>
+
+            <div class="input">
+                <label for="PhoneNumber">Phone Number</label>
+                <input required type="tel" id="PhoneNumber" name="PhoneNumber">
+            </div>
         </div>
-</div>
-<div class="extra"> 
+
+        <div class="extra"> 
+            <div class="input">
+                <label for="Password">Password</label>
+                <input required type="password" id="Password" name="Password">
+            </div>  
+
+            <div class="input">
+                <label for="ConfirmPassword">Confirm Password</label>
+                <input required type="password" id="ConfirmPassword" name="ConfirmPassword">
+            </div>  
+        </div>
+
+        <button input  type="submit"  class="signup">Create Account</button>
+</form>
+
+        
     
-        <div class="input">
-            <label for="Password">Password</label>
-            <input type="password" id="Password" name="Password">
-        </div>
+<!-- <div>
+    
+    <button input type="submit"  class="signup">Create Account</button>
 
-        <div class="input">
-            <label for="ConfirmPassword">Confirm Password</label>
-            <input type="password" id="ConfirmPassword" name="ConfirmPassword">
-        </div>  
-</div>
 
-        </form>
-
-        <button class="signup">Create Account</button>
+</div>-->
         <div class="outer">
             <div class="">Already have an account? </div>
            <!-- <div class="login"> Log in</div> -->
